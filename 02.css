@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pretendard-Regular';
+  line-height: 1.2;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+  color: #333;
+}
+
+/* header start */
+
+header img {
+  width: 137px;
+  height: 37px;
+  object-fit: cover;
+  display: block;
+  margin: 40px auto 20px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  column-gap: 35px;
+}
+
+/* header end */
+/* top start */
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px 0 100px;
+}
+
+.top_item {
+  position: relative;
+  overflow: hidden;
+}
+
+.top_item img {
+  width: 626px;
+  height: 360px;
+  object-fit: cover;
+}
+
+.top_txt {
+  padding: 33px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.top_txt h1 {
+  margin-bottom: 20px;
+}
+
+/* top end */
+
+/* mid start */
+.mid {
+  padding: 100px 0;
+  background-color: #f5f5f5;
+}
+
+.mid_title {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.mid_title h1:nth-child(1) {
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+.mid_item {
+  display: flex;
+  align-items: center;
+}
+
+.mid_item img {
+  width: 735px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.mid_txt {
+  margin-left: 28px;
+}
+
+.mid_btn span {
+  display: inline-block;
+  font-size: 14px;
+  width: 76px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #5778bb;
+  color: white;
+  border-radius: 3px;
+}
+
+.mid_btn span:last-child {
+  width: 39px;
+  background-color: #efe5f6;
+  color: #a03fe4;
+  margin-left: 8px;
+}
+
+.mid_item h1 {
+  margin: 20px 0 30px;
+  font-size: 30px;
+}
+
+.mid_item p {
+  font-size: 18px;
+  color: #ff5c46;
+  margin-bottom: 30px;
+}
+
+.mid_item span:nth-child(4) {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.mid_item span:nth-child(5) {
+  font-size: 16px;
+  margin-left: -5px;
+}
+
+/* mid end */
+
+/* bottom start */
+.bottom {
+  margin-top: 100px;
+}
+
+.bottom_title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.tag {
+  display: flex;
+  font-size: 18px;
+}
+
+.tag p {
+  margin-left: 25px;
+}
+
+.tag p:first-child {
+  font-weight: bold;
+}
+
+.bottom_txt h2 {
+  margin: 20px 0 16px;
+}
+
+.bottom_txt p {
+  margin-bottom: 30px;
+}
+
+.bottom_txt .price {
+  text-align: right;
+  margin-bottom: 23px;
+}
+
+.price span:first-child {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: -4px;
+}
+
+.bottom_txt p:last-child {
+  height: 40px;
+  line-height: 40px;
+  background-color: #e6f2fb;
+  padding-left: 10px;
+  border-radius: 3px;
+}
+
+.bottom_item_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom_item {
+  width: 300px;
+}
+
+.bottom_item_list {
+  margin-bottom: 195px;
+}
+/* bottom end */
